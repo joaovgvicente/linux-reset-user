@@ -1,0 +1,8 @@
+[Unit]
+Description=Reset User
+
+[Service]
+ExecStart=/bin/sh /usr/local/bin/reset-user.sh
+
+[Install]
+WantedBy=multi-user.target
